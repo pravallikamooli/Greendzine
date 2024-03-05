@@ -1,31 +1,39 @@
-import React, { useEffect, useState } from "react";
-import 'semantic-ui-css/semantic.min.css';
-import {
-    BrowserRouter as Router,
-    Routes,
-    Route,
-} from "react-router-dom";
-import './App.css'
-import Planent from "./Assignment/assignment/planent.js";
-import Navbar from "./Assignment/assignment/Navbar/navbar.js";
-import Home from "./Assignment/assignment/home.js";
-import PeopleComponent from "./Assignment/assignment/people.js";
-function App() {
-   
 
-    return (
-        <div className="App">
-            <Router>
-                <Navbar />
-                <Routes>
-                    <Route path="/home" element={<Home />} />
-                    <Route path="/" element={<Home />} />
-                    <Route path="/planet" element={<Planent/>} />
-                    <Route path="/people" element={<PeopleComponent />} />
-                </Routes>
-            </Router>
-        </div>
-    );
-}
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './Greendzine/Home';
+import Login from './Greendzine/Login';
+import Usericon from './Greendzine/Usericon';
+import './App.css'
+
+const App = () => {
+  return (
+    <Router>
+      <Routes>
+        <Route path="/home" element={<Home />} />
+        <Route path="/" element={<Login />} />
+        <Route path="/usericon" element={< Usericon/>} />
+      </Routes>
+    </Router>
+  );
+};
 
 export default App;
+// import React from 'react'
+// // import Map from './Assignment/assignment/practice/map'
+// // import Spread from './Assignment/assignment/practice/spread'
+// import { Route, Router, Link } from 'react-router-dom'
+// import { UserDetails } from './Assignment/assignment/practice/UserDetails'
+// function App() {
+//   return (
+//     <div>
+//       {/* <Map /> */}
+//       {/* </Spread /> */}
+//       <Router>
+//         <Route path=':userId' element={<UserDetails/>} />
+//       </Router>
+//     </div>
+//   )
+// }
+
+// export default App

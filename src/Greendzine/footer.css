@@ -1,0 +1,29 @@
+.container-fluid {
+    background: #41404082;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+.row{
+    text-align: center;
+}
+
+.ficon svg{
+    margin: 15px 0px;
+    font-size: 30px !important;
+}
+/* For screens up to 914px */
+@media (max-width: 914px) {
+    .container-fluid {
+        margin-top: 190px !important;
+    }
+}
+
+/* For screens up to 834px */
+@media (max-width: 834px) {
+    .container-fluid:not(.extra-specific-class) {
+        margin-top: 110px;
+    }
+}
+
+

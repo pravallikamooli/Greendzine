@@ -1,0 +1,46 @@
+.loginPage {
+    text-align: center;
+    font: normal normal normal 16px/21px Mulish;
+    vertical-align: middle;
+    transform: translateY(40%);
+
+}
+
+h3 {
+    color: #36A546CC;
+    opacity: 1;
+
+}
+
+input {
+    width: 210px;
+    height: 38px;
+    border-radius: 20px;
+    background: #1F191966;
+    text-align: center;
+    border: none;
+    outline: none;
+    box-shadow: inset 0px 3px 3px #FFFDFD40, 3px 3px 3px #4A494947;
+    color: #fff;
+}
+
+button {
+    width: 210px;
+    height: 38px;
+    border-radius: 20px;
+    text-align: center;
+    color: #FFFFFF8C;
+    opacity: 1;
+    background: transparent linear-gradient(180deg, #00FF2580 0%, #000000 100%, #36A54680 100%) 0% 0% no-repeat padding-box;
+    border: 2px solid #8CFF0026;
+    mix-blend-mode: normal;
+
+}
+
+p a {
+    color: #36A546;
+    font-size: 13px;
+    text-decoration: none;
+    letter-spacing: 0.02px;
+
+}

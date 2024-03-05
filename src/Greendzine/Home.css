@@ -1,0 +1,85 @@
+
+.icon {
+    text-align: right;
+  }
+  
+  .logo {
+    text-align: center;
+    position: relative;
+  }
+  
+  .logo img {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .badge {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    background: #41404082;
+    color: #36A546;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 27px;
+    margin-top: -10px;
+  }
+  
+  .progress {
+    background: #36A54680 0% 0% no-repeat padding-box;
+    border: 1px solid #36A546;
+    margin: 0px 10px;
+    border-radius: 25px;
+  }
+  
+  .label {
+    margin: 0px 25px;
+  }
+  
+  .prog {
+    box-shadow: 0px 4px 0px #00000040;
+    background: #2d2c2c82;
+    margin: 0px 20px;
+    border-radius: 20px;
+    padding-bottom: 30px;
+    margin-top: 40px;
+  }
+  
+  .emp{
+    width: 100%;
+    background: #1A2C2C99;
+    border-radius: 20px;
+    text-align: center;
+    padding: 15px 0px;
+    color: #FFFFFFB3;
+  }
+  
+  .emp h5{
+    font-size: 18px !important;
+    font-weight: normal;
+  }
+  
+  p {
+    color: #FFFFFF;
+    margin-bottom: 7px;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+
+  span{
+    margin-left: auto;
+  }
+  @media (max-width: 914px) {
+    .prog{
+      margin-top: 130px;
+    } 
+}
+@media (max-width: 834px) {
+  .prog{
+    margin-top: 100px;
+  } 
+}
